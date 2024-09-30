@@ -1,7 +1,7 @@
 
+
 import java.io.File;
 import java.util.Scanner;  // Import the Scanner class
-
 
 /**
     3 – Change the previous code (question 22) asking the folder and test it .. 
@@ -11,7 +11,7 @@ public class Question23 {
     @SuppressWarnings({ "resource", "unused" })
     public static void main(String[] args) throws Exception {
         
-        // setting variables we will need
+       // setting variables we will need
         String newLine      = "\n";
         float startCarValue = 0 ;
         float depositValue = 0 ;

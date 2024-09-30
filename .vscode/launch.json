@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Question11",
+            "request": "launch",
+            "mainClass": "Question11",
+            "projectName": "001_CCT_701f14db"
+        },
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch"
+        }
+    ]
+}
