@@ -9,12 +9,14 @@ public class Question16 {
         // Object that can read from keyboard
         Scanner oMyScanner = new Scanner(System.in);
         
-        String strLetter = "" ;
+        // read keyboard and  transform apply uppercase to its value
+        System.out.print("Enter a value: ");
+        String strLetter =  oMyScanner.nextLine();
+        strLetter = (strLetter.length() > 0) ? strLetter.substring(0,1): strLetter;
 
-        System.out.print("Enter a letter: ");
-        strLetter = oMyScanner.nextLine();
+        String vowels = "aeiouAEIOU";
 
-        if ( strLetter.toUpperCase().equals("A") ||  strLetter.toUpperCase().equals("E") || strLetter.toUpperCase().equals("I") || strLetter.toUpperCase().equals("A") || strLetter.toUpperCase().equals("O") ||  strLetter.toUpperCase().equals("U"))
+        if ( vowels.contains(strLetter) )
             System.out.println(strLetter + " is a vowel ");
         else
             System.out.println(strLetter + " is NOT a vowel ");

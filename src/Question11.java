@@ -19,7 +19,11 @@ public class Question11 {
         System.out.println("Sum between " + intFirstNumber + " and " + intSecNumber + " is: " + (intFirstNumber + intSecNumber));
         System.out.println("Multiplication between " + intFirstNumber + " and " + intSecNumber + " is: " + (intFirstNumber * intSecNumber));
         System.out.println("Subtraction between " + intFirstNumber + " and " + intSecNumber + " is: " + (intFirstNumber - intSecNumber));
-        System.out.println("Sum between " + intFirstNumber + " and " + intSecNumber + " is: " + (intFirstNumber / intSecNumber));
+        
+        if (intSecNumber  != 0)
+            System.out.println("Division between " + intFirstNumber + " and " + intSecNumber + " is: " + (intFirstNumber / intSecNumber));
+        else
+            System.out.println("Invalid Division");
 
 
     }
